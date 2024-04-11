@@ -1,0 +1,73 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #303030;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #151515;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    color: beige;
+}
+
+label {
+    color: beige;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+p {
+    box-sizing: content-box; width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow: 0px 0px 1px #cacaca;
+}
+
+.color-picker {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.palette .color {
+    width: 70px;
+    height: 200px;
+    margin: 0px;
+    border-radius: 5px;
+    border-end-end-radius: 30px;
+    border-start-start-radius: 30px;
+}
+
+.maincolor {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+#sharePalette {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    border-style: hidden;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    color: rgb(49, 49, 49);
+    box-shadow: 0px 0px 20px #d6d3af;
+    text-shadow: 0px 0px 2px #c8ffef;
+}
+#sharePalette {
+    margin-top: 100px;
+}
